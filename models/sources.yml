@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: ERP_DATA_SOURCE
+    database : ERP_SALES_DATA
+    schema: MAXA_DEMO
+    tables:
+      - name: CATEGORY
+      - name: CUSTOMER
+      - name: PRODUCT
+      - name: PURCHASE_ORDER
+      - name: SUPPLIER
